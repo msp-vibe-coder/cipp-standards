@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.git
+scripts/crawl-*.mjs
+scripts/dark-mode-compare.mjs
+*.pem
+.env*
+.vercel
+npm-debug.log*
+.DS_Store

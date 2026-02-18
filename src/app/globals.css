@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-primary: #e67e22;
+  --color-brand-primary-hover: #d35400;
+  --color-brand-primary-light: #fef3e2;
+  --color-brand-accent: #2b8a8a;
+  --color-brand-accent-light: #e6f5f5;
+
+  --color-impact-high: #f87171;
+  --color-impact-medium: #fbbf24;
+  --color-impact-low: #60a5fa;
+
+  --color-impact-badge-high-bg: #fef2f2;
+  --color-impact-badge-high-text: #dc2626;
+  --color-impact-badge-medium-bg: #fffbeb;
+  --color-impact-badge-medium-text: #d97706;
+  --color-impact-badge-low-bg: #eff6ff;
+  --color-impact-badge-low-text: #2563eb;
+
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f8fafc;
+  --color-page-bg: #f0f5f9;
+  --color-border: #e2e8f0;
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-text-tertiary: #94a3b8;
+  --color-code-bg: #f1f5f9;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+  --color-surface: #1e293b;
+  --color-surface-secondary: #1a2332;
+  --color-page-bg: #0f172a;
+  --color-border: #334155;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-tertiary: #64748b;
+  --color-code-bg: #0f172a;
+  --color-brand-primary-light: #3d2a10;
+  --color-brand-accent-light: #1a3333;
+  --color-impact-badge-high-bg: #3b1111;
+  --color-impact-badge-high-text: #fca5a5;
+  --color-impact-badge-medium-bg: #3b2a05;
+  --color-impact-badge-medium-text: #fcd34d;
+  --color-impact-badge-low-bg: #0f1d3b;
+  --color-impact-badge-low-text: #93c5fd;
+}
+
+body {
+  background: linear-gradient(to bottom, #eff6ff, #ffffff, #ffffff);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+.dark body {
+  background: linear-gradient(to bottom, #0f172a, #1e293b, #1e293b);
+}
+
+/* Smooth accordion transition */
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.accordion-content.open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-content > div {
+  overflow: hidden;
+}
+
+/* Scrollbar styling for dropdowns */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-text-tertiary);
+  border-radius: 3px;
+}

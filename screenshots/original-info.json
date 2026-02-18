@@ -1,0 +1,73 @@
+{
+  "title": "CIPP Standards | By CyberDrain",
+  "headerText": null,
+  "heroTitle": "CyberDrain Standards",
+  "heroSubtitle": "Comprehensive standards and best practices for Microsoft 365 and Azure environments.",
+  "heroClasses": null,
+  "allButtons": [
+    "High Impact21",
+    "Low Impact90",
+    "Medium Impact48",
+    "All Categories159",
+    "Defender Standards12",
+    "Device Management Standards2",
+    "Entra (AAD) Standards37",
+    "Exchange Standards42",
+    "Global Standards16",
+    "Intune Standards11",
+    "SharePoint Standards20",
+    "Teams Standards12",
+    "Templates7",
+    "Show New Only",
+    "Tags",
+    "Recommended By",
+    "Show Deprecated"
+  ],
+  "impactButtons": [
+    "High Impact21",
+    "Low Impact90",
+    "Medium Impact48"
+  ],
+  "categoryButtons": [
+    "All Categories159",
+    "Defender Standards12",
+    "Device Management Standards2",
+    "Entra (AAD) Standards37",
+    "Exchange Standards42",
+    "Global Standards16",
+    "Intune Standards11",
+    "SharePoint Standards20",
+    "Teams Standards12"
+  ],
+  "standardCardCount": 0,
+  "cardTitles": [
+    "New Standards",
+    "Set Intune Windows diagnostic data settings",
+    "Set auto enable archive mailbox state",
+    "Configure MDM enrollment when adding work or school account",
+    "Configure Auto-Archiving Threshold"
+  ],
+  "firstCardBody": null,
+  "dashboardClasses": "grid grid-cols-1 md:grid-cols-12 gap-4 mb-8",
+  "impactCard": null,
+  "categoryCard": null,
+  "filteredCard": null,
+  "filterBar": {
+    "containerClasses": "w-full md:flex-auto relative group",
+    "parentClasses": "flex flex-wrap items-center gap-3",
+    "hasSearchOnOwnRow": false
+  },
+  "themeToggle": null,
+  "headerBrand": null,
+  "bodyClasses": "",
+  "htmlClasses": "",
+  "bodyBg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+  "dashboardNegMargin": [
+    "text-xs text-orange-500 block -mt-1",
+    "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-12 w-full"
+  ],
+  "expandedCard": {
+    "boldElementsCount": 0,
+    "boldTexts": []
+  }
+}

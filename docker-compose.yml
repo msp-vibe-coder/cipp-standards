@@ -1,0 +1,8 @@
+services:
+  cipp-standards:
+    build: .
+    ports:
+      - "8080:3000"
+    environment:
+      - SYNC_CRON=0 */6 * * *
+    restart: unless-stopped

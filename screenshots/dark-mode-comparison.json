@@ -1,0 +1,503 @@
+{
+  "timestamp": "2026-02-17T20:30:15.723Z",
+  "original": {
+    "darkActive": false,
+    "styles": {
+      "cssVars": {
+        "--color-surface": "",
+        "--color-surface-secondary": "",
+        "--color-page-bg": "",
+        "--color-border": "",
+        "--color-text-primary": "",
+        "--color-text-secondary": "",
+        "--color-text-tertiary": "",
+        "--color-code-bg": "",
+        "--color-brand-primary": "",
+        "--color-brand-primary-light": "",
+        "--color-brand-accent-light": "",
+        "--color-impact-badge-high-bg": "",
+        "--color-impact-badge-high-text": "",
+        "--color-impact-badge-medium-bg": "",
+        "--color-impact-badge-medium-text": "",
+        "--color-impact-badge-low-bg": "",
+        "--color-impact-badge-low-text": "",
+        "--color-impact-high": "",
+        "--color-impact-medium": "",
+        "--color-impact-low": ""
+      },
+      "elements": {
+        "body": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "borderColor": "rgb(229, 231, 235)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": ""
+        },
+        "header": null,
+        "headerButton": null,
+        "heroTitle": null,
+        "heroSubtitle": null,
+        "dashboardCard1": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(17, 24, 39)",
+          "borderColor": "rgb(229, 231, 235)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "rounded-lg bg-white border-gray-200 shadow-sm border md:col-span-4 p-4"
+        },
+        "dashboardCard2": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(17, 24, 39)",
+          "borderColor": "rgb(229, 231, 235)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "rounded-lg bg-white border-gray-200 shadow-sm border md:col-span-4 p-4"
+        },
+        "dashboardCard3": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(17, 24, 39)",
+          "borderColor": "rgb(229, 231, 235)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "rounded-lg bg-white border-gray-200 shadow-sm border md:col-span-4 p-4"
+        },
+        "searchInput": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(17, 24, 39)",
+          "borderColor": "rgb(229, 231, 235)",
+          "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "w-full pl-10 pr-4 py-2.5 rounded-lg bg-white border-gray-200 text-gray-900 placeholder-gray-500 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 border focus:outline-none transition-all"
+        },
+        "firstStandardCard": null,
+        "impactButtons": [],
+        "categoryButtons": [],
+        "standardCardDetails": {
+          "h3Color": "rgb(249, 115, 22)",
+          "h3Text": "New Standards",
+          "badge": null
+        }
+      }
+    }
+  },
+  "local": {
+    "darkActive": true,
+    "styles": {
+      "cssVars": {
+        "--color-surface": "#1e293b",
+        "--color-surface-secondary": "#1a2332",
+        "--color-page-bg": "#0f172a",
+        "--color-border": "#334155",
+        "--color-text-primary": "#f1f5f9",
+        "--color-text-secondary": "#94a3b8",
+        "--color-text-tertiary": "#64748b",
+        "--color-code-bg": "#0f172a",
+        "--color-brand-primary": "#e67e22",
+        "--color-brand-primary-light": "#3d2a10",
+        "--color-brand-accent-light": "#1a3333",
+        "--color-impact-badge-high-bg": "#3b1111",
+        "--color-impact-badge-high-text": "#fca5a5",
+        "--color-impact-badge-medium-bg": "#3b2a05",
+        "--color-impact-badge-medium-text": "#fcd34d",
+        "--color-impact-badge-low-bg": "#0f1d3b",
+        "--color-impact-badge-low-text": "#93c5fd",
+        "--color-impact-high": "#f87171",
+        "--color-impact-medium": "#fbbf24",
+        "--color-impact-low": "#60a5fa"
+      },
+      "elements": {
+        "body": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(241, 245, 249)",
+          "background": "rgba(0, 0, 0, 0) linear-gradient(rgb(15, 23, 42), rgb(30, 41, 59), rgb(30, 41, 59)) repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased"
+        },
+        "header": {
+          "backgroundColor": "oklab(0.279491 -0.00636676 -0.0362856 / 0.95)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(51, 65, 85)",
+          "background": "oklab(0.279491 -0.00636676 -0.0362856 / 0.95) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "sticky top-0 z-50 border-b border-border bg-surface/95 backdrop-blur-sm"
+        },
+        "headerButton": {
+          "backgroundColor": "lab(15.6723 8.86233 -32.2945)",
+          "color": "lab(65.0361 -1.42062 -56.9803)",
+          "borderColor": "lab(26.1542 15.7545 -51.5504)",
+          "background": "lab(15.6723 8.86233 -32.2945) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "flex h-10 w-10 items-center justify-center rounded-lg border border-blue-100 bg-blue-50 p-2.5 text-blue-600 transition-colors hover:bg-blue-100 dark:border-blue-900 dark:bg-blue-950 dark:text-blue-400 dark:hover:bg-blue-900"
+        },
+        "heroTitle": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(241, 245, 249)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "text-3xl font-bold text-text-primary sm:text-4xl"
+        },
+        "heroSubtitle": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(148, 163, 184)",
+          "borderColor": "rgb(148, 163, 184)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "mx-auto mt-3 max-w-2xl text-text-secondary"
+        },
+        "dashboardCard1": {
+          "backgroundColor": "rgb(30, 41, 59)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(51, 65, 85)",
+          "background": "rgb(30, 41, 59) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "rounded-xl border border-border bg-surface p-5 shadow-sm"
+        },
+        "dashboardCard2": {
+          "backgroundColor": "rgb(30, 41, 59)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(51, 65, 85)",
+          "background": "rgb(30, 41, 59) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "rounded-xl border border-border bg-surface p-5 shadow-sm"
+        },
+        "dashboardCard3": {
+          "backgroundColor": "rgb(30, 41, 59)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(51, 65, 85)",
+          "background": "rgb(30, 41, 59) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "rounded-xl border border-border bg-surface p-5 shadow-sm"
+        },
+        "searchInput": {
+          "backgroundColor": "rgb(30, 41, 59)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(51, 65, 85)",
+          "background": "rgb(30, 41, 59) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "w-full rounded-lg border border-border bg-surface py-2.5 pl-10 pr-4 text-sm text-text-primary placeholder:text-text-tertiary focus:border-brand-primary focus:outline-none focus:ring-1 focus:ring-brand-primary"
+        },
+        "firstStandardCard": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(241, 245, 249)",
+          "borderColor": "rgb(241, 245, 249)",
+          "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "classes": "flex items-center gap-3"
+        },
+        "impactButtons": [
+          {
+            "text": "High Impact21",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "rgb(51, 65, 85)"
+          },
+          {
+            "text": "Low Impact91",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "rgb(51, 65, 85)"
+          },
+          {
+            "text": "Medium Impact47",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "rgb(51, 65, 85)"
+          }
+        ],
+        "categoryButtons": [
+          {
+            "text": "All Categories159",
+            "backgroundColor": "rgb(61, 42, 16)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "oklab(0.695763 0.0903492 0.131645 / 0.3)"
+          },
+          {
+            "text": "Defender Standards12",
+            "backgroundColor": "rgb(30, 41, 59)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "rgb(51, 65, 85)"
+          },
+          {
+            "text": "Device Management ...2",
+            "backgroundColor": "rgb(30, 41, 59)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "rgb(51, 65, 85)"
+          },
+          {
+            "text": "Entra (AAD) Standa...37",
+            "backgroundColor": "rgb(30, 41, 59)",
+            "color": "rgb(241, 245, 249)",
+            "borderColor": "rgb(51, 65, 85)"
+          }
+        ],
+        "standardCardDetails": {
+          "h3Color": "rgb(241, 245, 249)",
+          "h3Text": "Set Intune Windows diagnostic data settings",
+          "badge": {
+            "backgroundColor": "rgb(15, 29, 59)",
+            "color": "rgb(147, 197, 253)",
+            "text": "Low Impact"
+          }
+        }
+      }
+    }
+  },
+  "matches": [
+    "body.backgroundColor: rgba(0, 0, 0, 0)"
+  ],
+  "mismatches": [
+    {
+      "type": "css-variable",
+      "name": "--color-surface",
+      "original": "(not set)",
+      "local": "#1e293b"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-surface-secondary",
+      "original": "(not set)",
+      "local": "#1a2332"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-page-bg",
+      "original": "(not set)",
+      "local": "#0f172a"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-border",
+      "original": "(not set)",
+      "local": "#334155"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-text-primary",
+      "original": "(not set)",
+      "local": "#f1f5f9"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-text-secondary",
+      "original": "(not set)",
+      "local": "#94a3b8"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-text-tertiary",
+      "original": "(not set)",
+      "local": "#64748b"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-code-bg",
+      "original": "(not set)",
+      "local": "#0f172a"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-brand-primary",
+      "original": "(not set)",
+      "local": "#e67e22"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-brand-primary-light",
+      "original": "(not set)",
+      "local": "#3d2a10"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-brand-accent-light",
+      "original": "(not set)",
+      "local": "#1a3333"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-badge-high-bg",
+      "original": "(not set)",
+      "local": "#3b1111"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-badge-high-text",
+      "original": "(not set)",
+      "local": "#fca5a5"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-badge-medium-bg",
+      "original": "(not set)",
+      "local": "#3b2a05"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-badge-medium-text",
+      "original": "(not set)",
+      "local": "#fcd34d"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-badge-low-bg",
+      "original": "(not set)",
+      "local": "#0f1d3b"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-badge-low-text",
+      "original": "(not set)",
+      "local": "#93c5fd"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-high",
+      "original": "(not set)",
+      "local": "#f87171"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-medium",
+      "original": "(not set)",
+      "local": "#fbbf24"
+    },
+    {
+      "type": "css-variable",
+      "name": "--color-impact-low",
+      "original": "(not set)",
+      "local": "#60a5fa"
+    },
+    {
+      "type": "element-style",
+      "element": "body",
+      "property": "color",
+      "original": "rgb(0, 0, 0)",
+      "local": "rgb(241, 245, 249)"
+    },
+    {
+      "type": "element-style",
+      "element": "body",
+      "property": "borderColor",
+      "original": "rgb(229, 231, 235)",
+      "local": "rgb(241, 245, 249)"
+    },
+    {
+      "type": "element-missing",
+      "name": "header",
+      "original": false,
+      "local": true
+    },
+    {
+      "type": "element-missing",
+      "name": "headerButton",
+      "original": false,
+      "local": true
+    },
+    {
+      "type": "element-missing",
+      "name": "heroTitle",
+      "original": false,
+      "local": true
+    },
+    {
+      "type": "element-missing",
+      "name": "heroSubtitle",
+      "original": false,
+      "local": true
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard1",
+      "property": "backgroundColor",
+      "original": "rgb(255, 255, 255)",
+      "local": "rgb(30, 41, 59)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard1",
+      "property": "color",
+      "original": "rgb(17, 24, 39)",
+      "local": "rgb(241, 245, 249)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard1",
+      "property": "borderColor",
+      "original": "rgb(229, 231, 235)",
+      "local": "rgb(51, 65, 85)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard2",
+      "property": "backgroundColor",
+      "original": "rgb(255, 255, 255)",
+      "local": "rgb(30, 41, 59)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard2",
+      "property": "color",
+      "original": "rgb(17, 24, 39)",
+      "local": "rgb(241, 245, 249)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard2",
+      "property": "borderColor",
+      "original": "rgb(229, 231, 235)",
+      "local": "rgb(51, 65, 85)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard3",
+      "property": "backgroundColor",
+      "original": "rgb(255, 255, 255)",
+      "local": "rgb(30, 41, 59)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard3",
+      "property": "color",
+      "original": "rgb(17, 24, 39)",
+      "local": "rgb(241, 245, 249)"
+    },
+    {
+      "type": "element-style",
+      "element": "dashboardCard3",
+      "property": "borderColor",
+      "original": "rgb(229, 231, 235)",
+      "local": "rgb(51, 65, 85)"
+    },
+    {
+      "type": "element-style",
+      "element": "searchInput",
+      "property": "backgroundColor",
+      "original": "rgb(255, 255, 255)",
+      "local": "rgb(30, 41, 59)"
+    },
+    {
+      "type": "element-style",
+      "element": "searchInput",
+      "property": "color",
+      "original": "rgb(17, 24, 39)",
+      "local": "rgb(241, 245, 249)"
+    },
+    {
+      "type": "element-style",
+      "element": "searchInput",
+      "property": "borderColor",
+      "original": "rgb(229, 231, 235)",
+      "local": "rgb(51, 65, 85)"
+    },
+    {
+      "type": "element-missing",
+      "name": "firstStandardCard",
+      "original": false,
+      "local": true
+    },
+    {
+      "type": "impact-button-missing",
+      "index": 0
+    },
+    {
+      "type": "impact-button-missing",
+      "index": 1
+    },
+    {
+      "type": "impact-button-missing",
+      "index": 2
+    },
+    {
+      "type": "card-h3-color",
+      "original": "rgb(249, 115, 22)",
+      "local": "rgb(241, 245, 249)"
+    }
+  ]
+}
