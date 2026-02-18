@@ -2,7 +2,7 @@
 
 import { useTheme } from "@/hooks/useTheme";
 import { useStandardsFilter } from "@/hooks/useStandardsFilter";
-import standards from "@/data/standards.json";
+import { useSyncStandards } from "@/hooks/useSyncStandards";
 import type { Standard } from "@/types/standards";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -12,11 +12,22 @@ import StandardsList from "@/components/StandardsList";
 
 export default function Home() {
   const { isDark, toggle, mounted } = useTheme();
+  const { standards, syncedAt, newCount, isSyncing, syncError, sync } =
+    useSyncStandards();
   const filter = useStandardsFilter(standards as Standard[]);
 
   return (
     <div className="min-h-screen">
-      <Header isDark={isDark} toggleTheme={toggle} mounted={mounted} />
+      <Header
+        isDark={isDark}
+        toggleTheme={toggle}
+        mounted={mounted}
+        onSync={sync}
+        syncedAt={syncedAt}
+        newCount={newCount}
+        isSyncing={isSyncing}
+        syncError={syncError}
+      />
 
       <main className="mx-auto max-w-7xl px-4 pb-12 sm:px-6">
         <Hero />
