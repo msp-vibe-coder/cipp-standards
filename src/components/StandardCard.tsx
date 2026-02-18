@@ -34,7 +34,7 @@ export default function StandardCard({ standard }: StandardCardProps) {
         expanded ? "border-brand-primary/30" : "border-border"
       }`}
     >
-      <div className="flex border-l-4 border-l-brand-accent rounded-xl">
+      <div className="flex rounded-xl">
         <button
           onClick={() => setExpanded(!expanded)}
           className="flex flex-1 items-start gap-4 p-4 text-left"
