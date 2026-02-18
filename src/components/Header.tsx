@@ -52,7 +52,7 @@ export default function Header({
               size={14}
               className={isSyncing ? "animate-spin" : ""}
             />
-            <span>{isSyncing ? "Syncing…" : "Sync"}</span>
+            <span>{isSyncing ? "Syncing…" : "Sync Standards"}</span>
           </button>
 
           <div className="hidden items-center gap-2 text-xs text-text-muted sm:flex">
